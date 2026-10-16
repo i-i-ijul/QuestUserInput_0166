@@ -1,2 +1,15 @@
 package com.example.praktikum5
 
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import java.lang.reflect.Modifier
+
+@Composable
+fun act4(modifier: Modifier){
+    var textNama by remember { mutableStateOf("")}
+    var textAlamat by remember { mutableStateOf("")}
+    var textJK by remember { mutableStateOf("")}
+
+    var nama by remember { mutableStateOf("")}
+}
