@@ -14,4 +14,5 @@ fun act4(modifier: Modifier){
     var nama by remember { mutableStateOf("")}
     var alamat by remember { mutableStateOf("")}
     var jenis by remember { mutableStateOf("")}
+    var gender:List<String> = listOf("Laki-laki", "Perempuan")
 }
