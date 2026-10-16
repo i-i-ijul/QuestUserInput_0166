@@ -89,7 +89,7 @@ fun act4(modifier: Modifier){
         )
         Button(
             modifier = Modifier.fillMaxWidth(1f),
-            enabled = textAlamat.isNotEmpty() && textNama.isNotEmpty(),
+            enabled = textAlamat.isNotEmpty() && textNama.isNotEmpty() && textJK.isNotEmpty(),
             onClick = {
                 nama = textNama
                 jenis = textJK
