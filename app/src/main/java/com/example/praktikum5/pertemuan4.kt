@@ -12,4 +12,5 @@ fun act4(modifier: Modifier){
     var textJK by remember { mutableStateOf("")}
 
     var nama by remember { mutableStateOf("")}
+    var alamat by remember { mutableStateOf("")}
 }
